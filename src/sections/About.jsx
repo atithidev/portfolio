@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section id="about" className="py-16 bg-white">
       <div className="max-w-6xl mx-auto px-6">
-        
+
         {/* Section Heading */}
         <div className="text-center mb-10">
           <h2 className="text-3xl font-bold text-center mb-16 text-gray-900">
@@ -15,7 +15,7 @@ const About = () => {
 
         {/* Main Layout - Flex order swapped */}
         <div className="flex flex-col md:flex-row items-center gap-10">
-          
+
           {/* Content Section (Now First in Code, Left on Desktop) */}
           <div className="md:w-2/3">
             {/* Compact Professional Cards */}
@@ -43,7 +43,6 @@ const About = () => {
                   </h3>
                 </div>
                 <p className="text-sm text-gray-700 leading-snug">
-                  Bachelor of Computer Applications <br />
                   Master of Computer Applications
                 </p>
               </div>

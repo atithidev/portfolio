@@ -8,13 +8,13 @@ export default function Hero() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-12">
 
           {/* Left Profile Image */}
-<div className="aspect-square w-80 md:w-96 mt-12">
-  <img
-    src="/atithi-dev-profile.jpeg"
-    alt="Atithi Dev"
-    className="rounded-full object-cover shadow-2xl border-4 border-white w-full h-full"
-  />
-</div>
+          <div className="aspect-square w-80 md:w-96 mt-12">
+            <img
+              src="/atithi-dev-profile.jpeg"
+              alt="Atithi Dev"
+              className="rounded-full object-cover object-[center_top] shadow-2xl border-4 border-white w-full h-full"
+            />
+          </div>
 
 
 
@@ -41,14 +41,14 @@ export default function Hero() {
 
             {/* Buttons */}
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-            <a
-  href="/Atithi_Dev_CV.pdf"
-  download="Atithi_Dev_CV.pdf"
-  type="application/pdf"
-  className="px-7 py-3 bg-black text-white rounded-lg text-sm font-medium hover:bg-gray-800 transition"
->
-  Download CV
-</a>
+              <a
+                href="/Atithi_Dev_CV.pdf"
+                download="Atithi_Dev_CV.pdf"
+                type="application/pdf"
+                className="px-7 py-3 bg-black text-white rounded-lg text-sm font-medium hover:bg-gray-800 transition"
+              >
+                Download CV
+              </a>
 
               <a
                 href="#contact"
