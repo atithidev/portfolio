@@ -42,8 +42,8 @@ export default function Hero() {
             {/* Buttons */}
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <a
-                href="/Atithi_Dev_CV.pdf"
-                download="Atithi_Dev_CV.pdf"
+                href="/Atithi_Dev_Java_Full-Stack_Developer_CV.pdf"
+                download="Atithi_Dev_Java_Full-Stack_Developer_CV.pdf"
                 type="application/pdf"
                 className="px-7 py-3 bg-black text-white rounded-lg text-sm font-medium hover:bg-gray-800 transition"
               >
